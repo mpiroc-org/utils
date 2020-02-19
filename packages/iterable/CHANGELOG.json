@@ -1,0 +1,41 @@
+{
+  "name": "@mpiroc-org/iterable",
+  "entries": [
+    {
+      "version": "0.0.7",
+      "tag": "@mpiroc-org/iterable_v0.0.7",
+      "date": "Fri, 06 Mar 2020 21:54:54 GMT",
+      "comments": {
+        "none": [
+          {
+            "comment": "Unknown"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.0.6",
+      "tag": "@mpiroc-org/iterable_v0.0.6",
+      "date": "Wed, 19 Feb 2020 22:49:43 GMT",
+      "comments": {}
+    },
+    {
+      "version": "0.0.5",
+      "tag": "@mpiroc-org/iterable_v0.0.5",
+      "date": "Wed, 19 Feb 2020 22:46:09 GMT",
+      "comments": {}
+    },
+    {
+      "version": "0.0.4",
+      "tag": "@mpiroc-org/iterable_v0.0.4",
+      "date": "Wed, 19 Feb 2020 22:42:45 GMT",
+      "comments": {}
+    },
+    {
+      "version": "0.0.3",
+      "tag": "@mpiroc-org/iterable_v0.0.3",
+      "date": "Wed, 19 Feb 2020 22:41:15 GMT",
+      "comments": {}
+    }
+  ]
+}
