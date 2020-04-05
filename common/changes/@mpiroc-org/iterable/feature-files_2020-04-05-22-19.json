@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@mpiroc-org/iterable",
+      "comment": "Populate files",
+      "type": "none"
+    }
+  ],
+  "packageName": "@mpiroc-org/iterable",
+  "email": "matthew.pirocchi@gmail.com"
+}

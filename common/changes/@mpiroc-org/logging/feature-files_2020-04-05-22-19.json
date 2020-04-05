@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@mpiroc-org/logging",
+      "comment": "Populate files",
+      "type": "none"
+    }
+  ],
+  "packageName": "@mpiroc-org/logging",
+  "email": "matthew.pirocchi@gmail.com"
+}
