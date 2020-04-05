@@ -1,6 +1,6 @@
 {
   "name": "@mpiroc-org/promise",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Promise-based wrappers for built-in functions",
   "keywords": [],
   "homepage": "https://github.com/mpiroc-org/utils#readme",

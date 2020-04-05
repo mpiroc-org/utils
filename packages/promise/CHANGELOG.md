@@ -1,6 +1,13 @@
 # Change Log - @mpiroc-org/promise
 
-This log was last generated on Fri, 06 Mar 2020 21:54:54 GMT and should not be manually modified.
+This log was last generated on Sun, 05 Apr 2020 22:20:51 GMT and should not be manually modified.
+
+## 0.0.8
+Sun, 05 Apr 2020 22:20:51 GMT
+
+### Updates
+
+- Populate files
 
 ## 0.0.7
 Fri, 06 Mar 2020 21:54:54 GMT

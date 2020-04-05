@@ -1,6 +1,6 @@
 {
   "name": "@mpiroc-org/iterable",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Utility functions for working with sequences",
   "keywords": [],
   "homepage": "https://github.com/mpiroc-org/utils#readme",
