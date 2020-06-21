@@ -16,6 +16,7 @@ phases:
       - echo '@${GITHUB_SCOPE}:registry=https:${GITHUB_PACKAGE_REGISTRY}' >> ~/.npmrc
       - echo '${GITHUB_PACKAGE_REGISTRY}/:_authToken=${GITHUB_PERSONAL_ACCESS_TOKEN}' >> ~/.npmrc
       - cat ~/.npmrc
+      - npm config list
       - node common/scripts/install-run-rush.js update
   build:
     commands:
