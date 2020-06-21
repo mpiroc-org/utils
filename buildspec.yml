@@ -13,8 +13,8 @@ phases:
   pre_build:
     commands:
       # Note: Assumes echo uses UTF-8 encoding--this is not true on Windows/PowerShell.
-      - echo '@${GITHUB_SCOPE}:registry=https:${GITHUB_PACKAGE_REGISTRY}' >> ~/.npmrc
-      - echo '${GITHUB_PACKAGE_REGISTRY}/:_authToken=${GITHUB_PERSONAL_ACCESS_TOKEN}' >> ~/.npmrc
+      - echo '@mpiroc-org:registry=https://npm.pkg.github.com' >> ~/.npmrc
+      - echo '//npm.pkg.github.com/:_authToken=${GITHUB_PERSONAL_ACCESS_TOKEN}' >> ~/.npmrc
       - cat ~/.npmrc
       - npm config list
       - node common/scripts/install-run-rush.js update --debug-package-manager
