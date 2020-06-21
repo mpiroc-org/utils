@@ -17,7 +17,7 @@ phases:
       - echo '${GITHUB_PACKAGE_REGISTRY}/:_authToken=${GITHUB_PERSONAL_ACCESS_TOKEN}' >> ~/.npmrc
       - cat ~/.npmrc
       - npm config list
-      - node common/scripts/install-run-rush.js update
+      - node common/scripts/install-run-rush.js update --debug-package-manager
   build:
     commands:
       - node common/scripts/install-run-rush.js build
