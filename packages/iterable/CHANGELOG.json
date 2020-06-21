@@ -2,6 +2,12 @@
   "name": "@mpiroc-org/iterable",
   "entries": [
     {
+      "version": "0.0.9",
+      "tag": "@mpiroc-org/iterable_v0.0.9",
+      "date": "Sun, 21 Jun 2020 19:29:43 GMT",
+      "comments": {}
+    },
+    {
       "version": "0.0.8",
       "tag": "@mpiroc-org/iterable_v0.0.8",
       "date": "Sun, 05 Apr 2020 22:20:51 GMT",

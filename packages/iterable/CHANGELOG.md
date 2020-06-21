@@ -1,6 +1,11 @@
 # Change Log - @mpiroc-org/iterable
 
-This log was last generated on Sun, 05 Apr 2020 22:20:51 GMT and should not be manually modified.
+This log was last generated on Sun, 21 Jun 2020 19:29:43 GMT and should not be manually modified.
+
+## 0.0.9
+Sun, 21 Jun 2020 19:29:43 GMT
+
+*Version update only*
 
 ## 0.0.8
 Sun, 05 Apr 2020 22:20:51 GMT
