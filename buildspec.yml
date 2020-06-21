@@ -2,7 +2,6 @@
 version: 0.2
 env:
   parameter-store:
-    # These are used in common/config/rush/.npmrc[-publish]
     GITHUB_PACKAGE_REGISTRY: /github/registry
     GITHUB_PERSONAL_ACCESS_TOKEN: /github/mpiroc-org/ci
     GITHUB_SCOPE: /github/mpiroc-org/scope
