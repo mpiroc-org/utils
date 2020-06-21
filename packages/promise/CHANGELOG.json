@@ -2,6 +2,12 @@
   "name": "@mpiroc-org/promise",
   "entries": [
     {
+      "version": "0.0.10",
+      "tag": "@mpiroc-org/promise_v0.0.10",
+      "date": "Sun, 21 Jun 2020 21:31:16 GMT",
+      "comments": {}
+    },
+    {
       "version": "0.0.9",
       "tag": "@mpiroc-org/promise_v0.0.9",
       "date": "Sun, 21 Jun 2020 19:29:43 GMT",
