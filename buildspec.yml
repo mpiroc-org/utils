@@ -25,5 +25,6 @@ phases:
       - node common/scripts/install-run-rush.js test
       - |
         if [ $CODEBUILD_WEBHOOK_TRIGGER = "branch/master" ]; then
+          cat ~/.npmrc >> common/config/rush/.npmrc-publish
           node common/scripts/install-run-rush.js publish --include-all --publish --add-commit-details --apply --registry https://npm.pkg.github.com/$GITHUB_SCOPE
         fi
