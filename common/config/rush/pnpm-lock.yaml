@@ -1,9 +1,9 @@
 dependencies:
   '@microsoft/api-extractor': 7.8.12
-  '@mpiroc-org/api-extractor-config': 0.0.5_@microsoft+api-extractor@7.8.12
-  '@mpiroc-org/eslint-config': 0.0.5_f0a6b7522178a9e05a241794f02f6d2f
-  '@mpiroc-org/jest-config': 0.0.5
-  '@mpiroc-org/ts-config': 0.0.5_typescript@3.9.5
+  '@mpiroc-org/api-extractor-config': 0.0.10_@microsoft+api-extractor@7.8.12
+  '@mpiroc-org/eslint-config': 0.0.10_f0a6b7522178a9e05a241794f02f6d2f
+  '@mpiroc-org/jest-config': 0.0.10
+  '@mpiroc-org/ts-config': 0.0.10_typescript@3.9.5
   '@rush-temp/iterable': 'file:projects/iterable.tgz'
   '@rush-temp/logging': 'file:projects/logging.tgz'
   '@rush-temp/promise': 'file:projects/promise.tgz'
@@ -1158,16 +1158,16 @@ packages:
     dev: false
     resolution:
       integrity: sha512-IpgPxHrNxZiMNUSXqR1l/gePKPkfAmIKoDRP9hp7OwjU29ZR8WCJsOJ8iBKgw0Qk+pFwR+8Y1cy8ImLY6e9m4A==
-  /@mpiroc-org/api-extractor-config/0.0.5_@microsoft+api-extractor@7.8.12:
+  /@mpiroc-org/api-extractor-config/0.0.10_@microsoft+api-extractor@7.8.12:
     dependencies:
       '@microsoft/api-extractor': 7.8.12
     dev: false
     peerDependencies:
       '@microsoft/api-extractor': ^7.7.8
     resolution:
-      integrity: sha512-fpF4hH2pgu3br2KFDW2ESIO6Oza8CV0K3SGrRnycjwFSfO4D7EF41Ng3aD91AgcX1YRxxDOrbkTiPMZiypjHeQ==
-      tarball: download/@mpiroc-org/api-extractor-config/0.0.5/d015d9719cbdd8bb58a82ed816fd57a89966825ac0357afc5caca0844f79e5f7
-  /@mpiroc-org/eslint-config/0.0.5_f0a6b7522178a9e05a241794f02f6d2f:
+      integrity: sha512-2RVIb+wIg3Ma70RaLmAcKUaFOarKn9tFqQXsq/KJKvK2t1DGc0oj4Y3r7pUv14KwalVSW070w4flsPyTseqiXQ==
+      tarball: download/@mpiroc-org/api-extractor-config/0.0.10/08ace667f860f9c6c45a9f1600371b3c25674427fd6d43ed9ab042ac03345806
+  /@mpiroc-org/eslint-config/0.0.10_f0a6b7522178a9e05a241794f02f6d2f:
     dependencies:
       '@rushstack/eslint-config': 0.4.2_eslint@6.8.0+typescript@3.9.5
       '@typescript-eslint/eslint-plugin': 2.34.0_2ce5ff4d4c428c35a55f8b98c167bebb
@@ -1180,22 +1180,22 @@ packages:
       eslint: ^6.8.0
       typescript: '*'
     resolution:
-      integrity: sha512-7Mdm1tsJeSx5A62HOshwzO+AsORyCCqI7YQPqEsMW0wyDAf/B2vgHpaTiW6H1wT6Vy6UDHBGYELNkj0MjNyOvQ==
-      tarball: download/@mpiroc-org/eslint-config/0.0.5/bf3651647725e72d56d5c0b6dcfe830bcce2d8f788a36eeffa50a611680c6bb5
-  /@mpiroc-org/jest-config/0.0.5:
+      integrity: sha512-frpCC7hF2Hsgh4/xzu6/Y1ePkp5JnfS1ysbdweHsHhgJ/I9+7cBbWpKAicWpAtLgUHe/Jcbqs/QIHN+KAQew1A==
+      tarball: download/@mpiroc-org/eslint-config/0.0.10/3ce8f6e66e6cbebee72020db4d26d315ccc68ec6f11a57f010eccfb67902de18
+  /@mpiroc-org/jest-config/0.0.10:
     dev: false
     resolution:
-      integrity: sha512-IbhfSd1tfORiNssBQcD45n2x94E6I8WijYhBu9zn39s7Xvcs2SscVDpfLYCVq94u2VfZcGEj28seujAfe7n5+Q==
-      tarball: download/@mpiroc-org/jest-config/0.0.5/112880b0b7379554c815d3bf1547b8744dd93c93b4610efef7f665c0567d8776
-  /@mpiroc-org/ts-config/0.0.5_typescript@3.9.5:
+      integrity: sha512-+Hz3QMEV1B7x6ZQTEuHtiJrIjq1PU+ZPCVz0NKV9x+FekyNnZcJUX7w3nXJJwc3bqvZ50d0JPoIwhtYuRdkzsw==
+      tarball: download/@mpiroc-org/jest-config/0.0.10/432a2500f9a51ba21e23c5f1190f44b936b95ba04a656aba26747a835ca2a847
+  /@mpiroc-org/ts-config/0.0.10_typescript@3.9.5:
     dependencies:
       typescript: 3.9.5
     dev: false
     peerDependencies:
       typescript: ^3.7.2
     resolution:
-      integrity: sha512-0v1/gx6iGI4FhkQT9RHLut8JUyPPV/fLDX2RqQYxIzo1FRmpKCAhjZKNIzAIaDMunHzble+tIJoIN9Y1rHxYtg==
-      tarball: download/@mpiroc-org/ts-config/0.0.5/76393faa812d5daf6da27032062c2915a85370d851bd0d73577105ba31c408f0
+      integrity: sha512-shiEdRzMNe6vWBCbNZ/rBXTXLSwItKlQ0JTlsJulksgkBxh+sVylYeBMaqDmMgK2A035xVMxA7TAO+U49hGZjg==
+      tarball: download/@mpiroc-org/ts-config/0.0.10/bfdde0cf65f02c48697eaa7c24e2d93c4d1cfcf1583e357a96e24e57a5fcffc6
   /@mrmlnc/readdir-enhanced/2.2.1:
     dependencies:
       call-me-maybe: 1.0.1
@@ -7799,10 +7799,10 @@ packages:
   'file:projects/iterable.tgz':
     dependencies:
       '@microsoft/api-extractor': 7.8.12
-      '@mpiroc-org/api-extractor-config': 0.0.5_@microsoft+api-extractor@7.8.12
-      '@mpiroc-org/eslint-config': 0.0.5_f0a6b7522178a9e05a241794f02f6d2f
-      '@mpiroc-org/jest-config': 0.0.5
-      '@mpiroc-org/ts-config': 0.0.5_typescript@3.9.5
+      '@mpiroc-org/api-extractor-config': 0.0.10_@microsoft+api-extractor@7.8.12
+      '@mpiroc-org/eslint-config': 0.0.10_f0a6b7522178a9e05a241794f02f6d2f
+      '@mpiroc-org/jest-config': 0.0.10
+      '@mpiroc-org/ts-config': 0.0.10_typescript@3.9.5
       '@types/jest': 24.9.1
       '@types/node': 12.12.47
       '@typescript-eslint/eslint-plugin': 2.34.0_2ce5ff4d4c428c35a55f8b98c167bebb
@@ -7815,15 +7815,15 @@ packages:
     dev: false
     name: '@rush-temp/iterable'
     resolution:
-      integrity: sha512-WU4MLOM9gDqDljSuQ+DGO19lVNoTlxgvZMS5U6GAclqsdlYnSc1dxtcsthm17ncxtN9nRVjcAiszXqtpnO81FA==
+      integrity: sha512-ZFFzXhXsv609N53+U8wTjIZyM617rDnYWBd8vxFlOk8p35UtfKXpKLfWBTS5NvBRo7h7ZfdcwIuhzSu28Gcvew==
       tarball: 'file:projects/iterable.tgz'
     version: 0.0.0
   'file:projects/logging.tgz':
     dependencies:
       '@microsoft/api-extractor': 7.8.12
-      '@mpiroc-org/api-extractor-config': 0.0.5_@microsoft+api-extractor@7.8.12
-      '@mpiroc-org/eslint-config': 0.0.5_f0a6b7522178a9e05a241794f02f6d2f
-      '@mpiroc-org/ts-config': 0.0.5_typescript@3.9.5
+      '@mpiroc-org/api-extractor-config': 0.0.10_@microsoft+api-extractor@7.8.12
+      '@mpiroc-org/eslint-config': 0.0.10_f0a6b7522178a9e05a241794f02f6d2f
+      '@mpiroc-org/ts-config': 0.0.10_typescript@3.9.5
       '@types/jest': 24.9.1
       '@types/node': 12.12.47
       '@types/uuid': 3.4.9
@@ -7839,16 +7839,16 @@ packages:
     dev: false
     name: '@rush-temp/logging'
     resolution:
-      integrity: sha512-zeL2sr+GcU6VlaD9QJw7EPKrGwElTJpd7FOk1G8kQm9FpfOuE4zNYayYWpvo1S6KeE2CESkaO5W3ShSJcLeIhg==
+      integrity: sha512-RT1Q8PULX09x+ahClfOd2ciOIlVQog2of3FmZse7kLfnQUL37J60R2rMvQrMk1/SfawaeWC3I5RZ3F3Z/blFLA==
       tarball: 'file:projects/logging.tgz'
     version: 0.0.0
   'file:projects/promise.tgz':
     dependencies:
       '@microsoft/api-extractor': 7.8.12
-      '@mpiroc-org/api-extractor-config': 0.0.5_@microsoft+api-extractor@7.8.12
-      '@mpiroc-org/eslint-config': 0.0.5_f0a6b7522178a9e05a241794f02f6d2f
-      '@mpiroc-org/jest-config': 0.0.5
-      '@mpiroc-org/ts-config': 0.0.5_typescript@3.9.5
+      '@mpiroc-org/api-extractor-config': 0.0.10_@microsoft+api-extractor@7.8.12
+      '@mpiroc-org/eslint-config': 0.0.10_f0a6b7522178a9e05a241794f02f6d2f
+      '@mpiroc-org/jest-config': 0.0.10
+      '@mpiroc-org/ts-config': 0.0.10_typescript@3.9.5
       '@types/jest': 24.9.1
       '@types/node': 12.12.47
       '@typescript-eslint/eslint-plugin': 2.34.0_2ce5ff4d4c428c35a55f8b98c167bebb
@@ -7861,16 +7861,16 @@ packages:
     dev: false
     name: '@rush-temp/promise'
     resolution:
-      integrity: sha512-a2dn58H3F2t82gMtBECmI4Zgtc7tPOy+M6SqSHpk9h6+ULT2TrMKKThgbEMX/RP8MYEzDHIEoFXOQqkpbU67Ag==
+      integrity: sha512-/L1RX4iqb0fP7Zva/Hlbmpvisnn7R9Xm/yvnSMEC1tqvJ1O2hRSm2YHlaX/5gUQhpmprr6Rt02O23AUeg00eGw==
       tarball: 'file:projects/promise.tgz'
     version: 0.0.0
 registry: ''
 specifiers:
   '@microsoft/api-extractor': ^7.7.8
-  '@mpiroc-org/api-extractor-config': ^0.0.5
-  '@mpiroc-org/eslint-config': ^0.0.5
-  '@mpiroc-org/jest-config': ^0.0.5
-  '@mpiroc-org/ts-config': ^0.0.5
+  '@mpiroc-org/api-extractor-config': ^0.0.10
+  '@mpiroc-org/eslint-config': ^0.0.10
+  '@mpiroc-org/jest-config': ^0.0.10
+  '@mpiroc-org/ts-config': ^0.0.10
   '@rush-temp/iterable': 'file:./projects/iterable.tgz'
   '@rush-temp/logging': 'file:./projects/logging.tgz'
   '@rush-temp/promise': 'file:./projects/promise.tgz'
